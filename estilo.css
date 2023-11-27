@@ -1,0 +1,98 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o menu */
+nav {
+    background-color: #555;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens do menu se ajustem à largura da tela */
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 10px 20px; /* Espaçamento vertical e horizontal nos links */
+}
+
+nav li {
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+/* Estilos quando o mouse passa por cima do <li> */
+nav li:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+}
+
+/* Estilos para a div de container */
+.container {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+/* Estilizando a imagem */
+.container img {
+    height: auto;
+    object-fit: contain;
+}
+
+/* Estilizando o parágrafo */
+.txt_container {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    text-align: left; /* Deixa o texto a esquerda */
+}
+.custom-marker::before {
+    content: "•"; /* Use um caractere de ponto como marcador */
+    margin-right: 5px; /* Adicione um espaço à direita do marcador */
+    color: black; /* Defina a cor do marcador */
+}
+
+
+
+/* Estilizando a imagem para telas maiores */
+@media screen and (min-width: 768px) {
+    .container img {
+        width: 50%;
+    }
+}
+
+
+/* Estilizando a imagem para telas de celulares */
+@media screen and (max-width: 767px) {
+    .container {
+    flex-direction: column; /* Empilha os elementos verticalmente em telas pequenas */
+    }
+    .container img {
+        width: 100%; /* A imagem não ultrapassará a largura da div pai */
+        margin-bottom: 10px; /* Adiciona espaço entre a imagem e o parágrafo */
+    }
+    .txt_container {
+        font-size: 12px;
+    }
+}

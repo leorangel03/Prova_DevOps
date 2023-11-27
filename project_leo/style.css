@@ -1,0 +1,53 @@
+header {
+        background-color: #333; /* Cor de fundo */
+        color: #fff; /* Cor do texto */
+        padding: 20px; /* Espaçamento interno */
+        text-align: center; /* Alinhamento de texto central */
+        border-radius: 10px;
+        font-family: "Arial", sans-serif;
+        margin-bottom: 10px;
+}
+
+.introducao {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+/* Estilos para o parágrafo (p) */
+.introducao p {
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+    text-align: left;
+}
+
+.conteudos {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	margin: 0 auto;
+	font-family: "Arial", sans-serif;
+	margin-bottom: 10px;
+}
+.conteudos p{
+	text-align: center;
+}
+/* Estilos para a imagem */
+.conteudos img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+}
+
+/* Estilos para o áudio */
+.conteudos audio {
+    width: 100%;
+    margin: 0 auto 20px;
+}

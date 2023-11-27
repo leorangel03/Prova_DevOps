@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <head>
+   <meta charset="utf-8">
+   <title>Home</title>
+   <link rel="stylesheet" href="{{ url_for('static',     filename='css/template.css') }}">
+ </head>
+ <body>
+        <div class="px-3 py-2 text-bg-dark">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+              </a>
+              <div id="logo">
+                <img src="senhor_impacta.jpeg">
+              </div>  
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                  <a href="/" class="nav-link text-secondary">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="adm" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
+                    Administração
+                  </a>
+                </li>
+                <li>
+                  <a href="ec" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
+                    Engenharia da Computação
+                  </a>
+                </li>
+                <li>
+                  <a href="bd" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
+                    Banco de Dados
+                  </a>
+                </li>
+                <li>
+                  <a href="SI" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
+                    Segurança da Informação
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container my-5">
+          <div class="bg-light p-5 rounded">
+            <div class="col-sm-8 py-5 mx-auto">
+              <h1 class="display-5 fw-normal">Senhor Impacta</h1>
+              <p class="fs-5">Os melhores cursos de TI, gestão, design, marketing e 
+                desenvolvimento estão aqui na Impacta. Acesse e veja como se preparar para o mercado!</p>
+                <a class="btn btn-dark" href="../components/navbar/#offcanvas" role="button">Saiba mais</a>
+              </p>
+          </div>
+          </div>
+        </div>
+ </body>
+</html>
